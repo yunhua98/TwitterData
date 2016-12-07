@@ -1,0 +1,7 @@
+International Date Line West,0.5224252956000001,1.0,0.0
+Berlin,0.7118636312000001,1.0,0.0
+America/New_York,0.9535685629,1.0,0.0
+Alaska,0.0021183193,0.0,1.0
+Mountain Time (US & Canada),0.3219460323,0.0,1.0
+Central Time (US & Canada),0.27982301095,0.0,2.0
+Eastern Time (US & Canada),0.360289448575,1.0,3.0

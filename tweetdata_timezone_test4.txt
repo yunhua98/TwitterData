@@ -1,0 +1,15 @@
+America/Caracas,0.2920595878,0.0,1.0
+Quito,0.07160945369999999,0.0,2.0
+Central Time (US & Canada),0.37544209324000005,4.0,6.0
+Beijing,0.6745234396,1.0,0.0
+Pacific Time (US & Canada),0.38732408700000004,4.0,5.0
+Santiago,0.2967358765,0.0,1.0
+Atlantic Time (Canada),0.5845130955,1.0,0.0
+Brisbane,0.3469328454,0.0,1.0
+International Date Line West,0.1643259252,0.0,1.0
+EDT,0.0841179836,0.0,1.0
+Mountain Time (US & Canada),0.018717868500000002,0.0,1.0
+Eastern Time (US & Canada),0.17534814061666668,1.0,11.0
+Paris,0.100139749,0.0,1.0
+Arizona,0.1021223013,0.0,2.0
+Greenland,0.15454474640000002,0.0,1.0

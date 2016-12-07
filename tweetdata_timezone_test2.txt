@@ -1,0 +1,7 @@
+Pacific Time (US & Canada),0.18412622553333333,1.0,2.0
+Amsterdam,0.6043938268,1.0,0.0
+Mountain Time (US & Canada),0.7081170081,1.0,0.0
+Athens,0.5987787137,1.0,0.0
+Eastern Time (US & Canada),0.6437440115,1.0,1.0
+Central Time (US & Canada),0.56944683725,1.0,1.0
+Mexico City,0.1301631473,0.0,1.0
