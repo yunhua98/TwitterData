@@ -22,12 +22,7 @@ import twitter4j.User;
 import twitter4j.conf.ConfigurationBuilder;
 
 public class DataCollect {
-
-    final static String TWITTER_API_KEY = "PnTxronSRpOXf476DgWyS6sKw";
-    final static String TWITTER_API_SECRET = "4OmMOnIuX1nEUpQPcdAEe7TPMWHP4Uao94yhremPU5SyeqyqJs";
-    final static String TWITTER_ACCESS_TOKEN = "801682808108355584-8Q6g9mhENsa2D6vFvACPAKwddyBfi0y";
-    final static String TWITTER_ACCESS_SECRET = "SquLU9wJdVgaj6MIAV1b4ogxvZ0obalhmwkOSC2a3JJfv";
-    final static String INDICO_API_KEY = "9264fc29228469a2dae4b4965d909fe5";
+	
     static Indico indico;
 	static int counter;
 	static double numPositive;
@@ -45,7 +40,7 @@ public class DataCollect {
 		
 		// initialize Indico
 		try {
-			indico = new Indico(INDICO_API_KEY);
+			indico = new Indico(Config.INDICO_API_KEY);
 		} catch (IndicoException e) {
 			System.out.println("Connection to Indico failed.");
 			e.printStackTrace();
@@ -54,10 +49,10 @@ public class DataCollect {
 		// initialize twitter4j
 		ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey(TWITTER_API_KEY)
-                .setOAuthConsumerSecret(TWITTER_API_SECRET)
-                .setOAuthAccessToken(TWITTER_ACCESS_TOKEN)
-                .setOAuthAccessTokenSecret(TWITTER_ACCESS_SECRET);
+                .setOAuthConsumerKey(Config.TWITTER_API_KEY)
+                .setOAuthConsumerSecret(Config.TWITTER_API_SECRET)
+                .setOAuthAccessToken(Config.TWITTER_ACCESS_TOKEN)
+                .setOAuthAccessTokenSecret(Config.TWITTER_ACCESS_SECRET);
         
         TwitterStream twitter = new TwitterStreamFactory(cb.build()).getInstance();
         FilterQuery filtro = new FilterQuery();    
